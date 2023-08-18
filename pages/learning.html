@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>AI</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/common.css">
+
+    
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/pages.css">
+  </head>
+  <body class="desktop">
+    <div class="desktop-header">
+      <header class="desktop-header__inner">
+        <a href="#" class="desktop-header__logo">
+          onBookAi
+        </a>
+        <nav class="gnb">
+          <div class="gnb__menu">
+            <div class="gnb__item">
+              <a href="#" class="gnb__link">학습</a>
+            </div>
+            <div class="gnb__item">
+              <a href="#" class="gnb__link">로그인</a>
+            </div>
+            <div class="gnb__item gnb__item--border-btn">
+              <a href="#" class="gnb__link">플립러닝</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <div class="mobile-header">
+      <header class="mobile-header__inner">
+        <div class="mobile-header__top">
+          <button class="gnb-btn">
+            <div class="hidden">
+              메뉴버튼
+            </div>
+          </button>
+          <a href="#" class="mobile-header__logo">
+            onBookAi
+          </a>
+        </div>
+        <div class="mobile-gnb">
+          <div class="mobile-gnb__menu">
+            <div class="mobile-gnb__item">
+              <a href="#" class="mobile-gnb__link">학습</a>
+            </div>
+            <div class="mobile-gnb__item">
+              <a href="#" class="mobile-gnb__link">로그인</a>
+            </div>
+            <div class="mobile-gnb__item">
+              <a href="#" class="mobile-gnb__link">플립러닝</a>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <script>
+      let gnbBtn = document.querySelector('.gnb-btn');
+      let mobileGnb = document.querySelector('.mobile-gnb');
+      gnbBtn.addEventListener('click', function() {
+        gnbBtn.classList.toggle('active');
+        mobileGnb.classList.toggle('active');
+      });
+    </script>
+    <div class="desktop__inner">
+      <section class="main main--center">
+        <div class="main__inner">
+          <div class="main__text">
+            <h2 class="main__title">
+              모든 AI 교육 콘텐츠
+            </h2>
+            <p>진단, 학습, 실전 모두</p>
+            <div class="main__button-wrap">
+              <button type="button" class="hero-btn">
+                체험하기
+              </button>
+              <button type="button" class="hero-btn hero-btn--black-bg">
+                도입문의
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="education">
+        <div class="education__inner">
+          <ul class="education__menu">
+            <li class="education__menu-item active">
+              전체
+            </li>
+            <li class="education__menu-item">
+              단과
+            </li>
+            <li class="education__menu-item">
+              프로젝트
+            </li>
+            <li class="education__menu-item">
+              역량진단
+            </li>
+          </ul>
+          <div class="education__contents">
+            <div class="education__item">
+              <div class="education__text">
+                <span class="education__type">
+                단과
+              </span>
+                <h4 class="education__title">
+                  데이터분석 Basic
+                </h4>
+                <p class="education__description">
+                  데이터분석 Basic은 파이썬 언어와 기초적인 머신러닝 알고리즘을 익히고 실습을 해 볼 수 있는 과정으로 정보고 학생과 교사들에게 추천드립니다.
+                </p>
+                <span class="education__price">
+                1개월 / 10만원
+              </span>
+              </div>
+              <div class="education__img">
+                <img src="../images/learn/content_1.png" alt="">
+              </div>
+            </div>
+            <div class="education__item">
+              <div class="education__text">
+                <span class="education__type">
+                단과
+              </span>
+                <h4 class="education__title">
+                  데이터분석 Advanced
+                </h4>
+                <p class="education__description">
+                  데이터분석 Advanced는 빅데이터분석을 위한 파이썬 언어부터, 기초통계, 라이브러리, 주요 머신러닝 알고리즘을 이론과 실습으로 익히고 미니
+                </p>
+                <span   class="education__price">
+                2개월 / 12만원
+              </span>
+              </div>
+              <div class="education__img">
+                <img src="../images/learn/content_2.png" alt="">
+              </div>
+            </div>
+            <div class="education__item">
+              <div class="education__text">
+                <span class="education__type">
+                단과
+              </span>
+                <h4 class="education__title">
+                  머신러닝
+                </h4>
+                <p class="education__description">
+                  최대 3줄입니다.최대 3줄입니다.최대 3줄입니다.최대 3줄입니다.최대 3줄입니다.최대 3줄입니다.최대 3줄입니다.
+                </p>
+                <span   class="education__price">
+                2개월 / 12만원
+              </span>
+              </div>
+              <div class="education__img">
+                <img src="../images/learn/content_3.png" alt="">
+              </div>
+            </div>
+            <div class="education__item">
+              <div class="education__text">
+                <span class="education__type">
+                단과
+              </span>
+                <h4 class="education__title">
+                  딥러닝
+                </h4>
+                <p class="education__description">
+                  최대 3줄입니다.최대 3줄입니다.최대 3줄입니다.최대 3줄입니다.최대 3줄입니다.최대 3줄입니다.최대 3줄입니다.
+                </p>
+                <span   class="education__price">
+                2개월 / 12만원
+              </span>
+              </div>
+              <div class="education__img">
+                <img src="../images/learn/content_4.png" alt="">
+              </div>
+            </div>
+            <div class="education__item">
+              <div class="education__text">
+                <span class="education__type">
+                프로젝트
+              </span>
+                <h4 class="education__title">
+                  프로젝트
+                </h4>
+                <p class="education__description">
+                  프로젝트 설명이 들어갑니다.
+                  프로젝트 설명이 들어갑니다.
+                  프로젝트 설명이 들어갑니다.
+                </p>
+                <span   class="education__price">
+                2개월 / 12만원
+              </span>
+              </div>
+              <div class="education__img">
+                <img src="../images/learn/content_5.png" alt="">
+              </div>
+            </div>
+            <div class="education__item">
+              <div class="education__text">
+                <span class="education__type">
+                역량진단
+              </span>
+                <h4 class="education__title">
+                  DT 역량진단
+                </h4>
+                <p class="education__description">
+                  디지털 리터러시 역량진단의 목적은 기업 재직자들의 디지털 역량을 향상시켜 기업의 Digital
+                </p>
+                <span   class="education__price">
+                2개월 / 12만원
+              </span>
+              </div>
+              <div class="education__img">
+                <img src="../images/learn/content_6.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner">
+        <div class="banner__inner">
+          <div class="banner__text">
+            <span>다른 콘텐츠가 필요하신가요?</span>
+            <p>맞춤 콘텐츠 제작으로<br />
+              원하는 교육을 진행해보세요.</p>
+          </div>
+          <button class="banner__btn">
+            문의하기
+          </button>
+        </div>
+      </section>
+    </div>
+    <div>
+      <footer>
+        <div class="desktop-footer">
+          <div class="desktop-footer__inner">
+            <div class="desktop-footer__top">
+              <p class="desktop-footer__logo">OnBook AI</p>
+              <ul class="footer-nav">
+                <li class="footer-nav__item">
+                  <a href="#">코딩엑스AI</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#">K-디지털 기초역량훈련</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#">기업교육</a>
+                </li>
+              </ul>
+            </div>
+            <div class="desktop-footer__bottom">
+              <ul class="footer-nav footer-nav--bottom">
+                <li class="footer-nav__item">
+                  <a href="#">이용약관</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#">개인정보처리방침</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#">고객센터</a>
+                </li>
+              </ul>
+              <p class="desktop-footer__company-name">
+                더에이아이랩 주식회사
+              </p>
+              <div class="desktop-footer__info">
+                <p>
+                  대표: 최영준 | 사업자 등록번호: 439-87-00757 | 통신판매신고번호: 제 2020-서울강남-02380<br />
+                  주소: 서울특별시 강남구 선릉로 108길 9 5층 | 이메일: contact@theailab.co | 전화: 02-2039-9355
+                </p>
+                <p>THE AI Lab. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-footer">
+          <div class="mobile-footer__inner">
+            <div class="mobile-footer__top">
+              <p class="mobile-footer__logo">OnBook AI</p>
+              <ul class="footer-nav">
+                <li class="footer-nav__item">
+                  <a href="#">코딩엑스AI</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#">K-디지털 기초역량훈련</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#">기업교육</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mobile-footer__bottom">
+              <ul class="footer-nav footer-nav--bottom">
+                <li class="footer-nav__item">
+                  <a href="#">이용약관</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#">개인정보처리방침</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#">고객센터</a>
+                </li>
+              </ul>
+              <p class="mobile-footer__company-name">
+                더에이아이랩 주식회사
+              </p>
+              <div class="mobile-footer__info">
+                <p>
+                  대표: 최영준<br />
+                  사업자 등록번호: 439-87-00757<br />
+                  통신판매신고번호: 제 2020-서울강남-02380<br />
+                </p>
+                <p>
+                  주소: 서울특별시 강남구 선릉로 108길 9 5층<br />
+                  이메일: contact@theailab.co<br />
+                  전화: 02-2039-9355<br />
+                </p>
+                <p>THE AI Lab. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
